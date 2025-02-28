@@ -1,0 +1,13 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Method Nettrine\\Extensions\\KnpLabs\\Security\\UserCallable\:\:provideUser\(\) never returns object so it can be removed from the return type\.$#'
+			identifier: return.unusedType
+			count: 1
+			path: src/Security/UserCallable.php
+
+		-
+			message: '#^Method Nettrine\\Extensions\\KnpLabs\\Security\\UserCallable\:\:provideUserEntity\(\) never returns null so it can be removed from the return type\.$#'
+			identifier: return.unusedType
+			count: 1
+			path: src/Security/UserCallable.php

@@ -1,0 +1,4 @@
+include:
+  - project: 'ideatechcz/composer-deployment' # https://gitlab.com/ideatechcz/composer-deployment/-/blob/master/.gitlab-ci.composer.yml
+    ref: master
+    file: '.gitlab-ci.composer.yml'
